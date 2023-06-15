@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 
 def add_to_doc(text):
     # Load credentials from the file
-    credentials_path = '/Users/armandhubler/Documents/Python/Tech Lab /ATOS Summary per country/keyfile.json'
+    credentials_path = 'keyfile.json'
 
     # Check if the file exists
     if not os.path.isfile(credentials_path):
