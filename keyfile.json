@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "eg-2023",
+  "private_key_id": "f71628f1d8dc55c21f95b346e60e143454b9a6f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQD8cHOrPCEmuV5/\nWp4H+anKojCEDPatZpep6tHZGPoPNVI2O0+t9qeGzwPm2thvkhvLvFSxc9VSPgWF\nGRNrOxaGODgpa3IDAVjMHK4amPJIul8nTPaexIzga1CCcnpTN3/4JUyxCmtWzGyT\ni9H/773YuIVYOGcGu4G7RwnP+aXkfTvzl6kuSWI6PXv/vSRSTM0X8VQy/GqWoyFk\nf3vk2JgMGW1MfC7ogaWHpslyoqqwE7edMiK9uG9FSalehgOGOaiwWiM4b8jV2KNM\njXyVjYBv93unXv2d1Hyl6QjbVxyWwaaltJpHmOIGLxSFqzvJRLffz7lNOnRPULAb\nSJhxplfnAgMBAAECggEAI9vfenQEq4kKdOHM8AoVhezLIn7q7Y/UvHTYUVP8dXuY\nDY8YTvhqLLqsbbcpppOlMigzCbAQHeokg5cfzIwss206ARw7qlSfJgNu8eVHCXC8\nAouqvrvh3SExYw5a9QY9veSig8WcoMxSIhVrA8Ws/KOdgX4lmG27THyXVr06RP4C\n9EUCy2+1qS8s+WFq+eZvYkF3sVmoVa8/LVRo00gPaNbCi81Nk2wgTPKVWbRSW1rb\nwUw5L4aSNTY40l9zuY+pDSULFLH7TAn8IwcKf6JetvfffB8Ww6HqLlD+e40D8R1A\nebpAPVeW2ZPCdqRvjH5y7PRXfkVKIPLlfVBgGSW4LQKBgQD/sRRCllHRxi4oLAU/\nCZrgke87rTZQPt8Ta8sqdR2wtjoAIe4c21SVdV3hfceJsflaEYTNIyLA5Swxh4QE\nJsWmtWm3pzNZALsS2YRvU4Y5QzIRXmJAICRwsiJu8nuMXa8L7aSLyBoofEp4pg5o\n6co15oZRukDRWGZi2U1jTmjetQKBgQD8vl5pwecP9FUdclWXZg1rGFxgMH2OVkrb\nglVcSxBIOu7bPgAxoKyKgfzyO6yj9uf4ictEbItuclzMAtVWOjkTIY7/4CDemNgY\n8/joxqUcit6efeEQ2POFJZXE1X+ilqxY/1jcT2eCsA7tq9zV7WEWWJ4hOqet3/6K\n53yJa7thqwKBgQCKL86uSgVAJSYu6dOQBQXiFpy/mNZAuinfmiM79/2q0mE4Tx4c\nFGF7QOoTAuJDRZ9okQ0/vJx8uZ6PyhiMEdRCS8styTxT/rQb9NjBPdfNvMYjYuog\nk/59tZgsc/pXmw4OmUmTjfqtJLcuyzgAdVGmnca8BrgfK/Jxu9U6NVcx/QKBgQDC\n5WXWtcChS+9qoqUf94E3aXSqdBoN7bsR5EJAxl2K5W8VP41Ut6r1r+FHRf8N/TLK\nNC+71tv6UlP+udya/pDOkN09sS6HmGNjcpcpoSzngqrCmx04KaQ3s1D3lQ80aG4E\nvvteABk47NzGJ/ZGPSPV4IYn55wv93/Iy1L8gUfguwKBgQD57WPvgFkF4VP29LRb\n8Xb/rlaPWP4Za/0Czk6ImQtFbfG4gEoX/0IapWrIjQRb+nninlozyVQj5GYeGq/z\nTaDa6OZiSacROHaWkgb5/ftK4ti7todRaoKWsJiH6HHKBUkU43BwTWOfV/SvcZvS\ncmOJfFW+P+XH3E6zbVBlwf6kFg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "european-games@eg-2023.iam.gserviceaccount.com",
+  "client_id": "103544896984299879975",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/european-games%40eg-2023.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
