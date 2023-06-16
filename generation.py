@@ -19,7 +19,6 @@ def gptgeneration(event_df,ranking_df,info):
         engine='gpt-4-engine-name',
         prompt=prompt,
         max_tokens=1000,
-        temperature=0.8,
     )
 
     # Retrieve the generated response
