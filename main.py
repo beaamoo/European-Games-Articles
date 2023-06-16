@@ -43,6 +43,6 @@ if st.session_state["data_loaded"]:
     add_info = st.text_area('Enter text: ')
 
     if st.button('Generate article'):
-        text = gptgeneration(event_df=st.session_state["event_df"], ranking_df=st.session_state["ranking_df"], info=add_info)
+        text = gptgeneration(event_df=st.session_state["event_df"], ranking_df=st.session_state["ranking_df"], info=add_info, schedule = schedule, date = st.session_state['date_selection'])
         document_url = add_to_doc(text)
         st.markdown(f"Here is the link: {document_url}")
