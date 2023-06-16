@@ -15,11 +15,7 @@ def gptgeneration(event_df,ranking_df,info):
     prompt = """Please regard the following data:\n {}. generate an article that will not have too many expressive words. do not say: incredible, amazing, thrilling,outstanding, remarkable skill, prowess. I do not want such expressiveness. be journalistic professional: {}""".format(event_df, ranking_df, input_text)
     st.markdown(prompt)
     # Call the ChatGPT API
-    response = openai.Completion.create(
-        engine='gpt-4-engine-name',
-        prompt=prompt,
-        max_tokens=1000,
-    )
+    response = openai.Completion.create()
 
     # Retrieve the generated response
     generated_text = response.choices[0].text.strip()
