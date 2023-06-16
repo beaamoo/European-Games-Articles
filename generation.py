@@ -21,7 +21,6 @@ def gptgeneration(event_df,ranking_df,info):
         max_tokens=1000,
         temperature=0.8,
         top_p=0.9,
-        frequency_penalty=0.0,
     )
 
     # Retrieve the generated response
