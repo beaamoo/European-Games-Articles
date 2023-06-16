@@ -31,6 +31,8 @@ def gptgeneration(event_df,ranking_df,info, schedule, date):
 
     st.title(f"Prompt")
     st.markdown(prompt)
+    response = ""
+    generated_text = ""
 
     # Call the ChatGPT API
     response = openai.Completion.create(
