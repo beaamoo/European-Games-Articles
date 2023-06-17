@@ -6,6 +6,7 @@ import streamlit as st
 def gptgeneration(event_df,ranking_df,info, schedule, date):
 # Set up your OpenAI API credentials
     openai.api_key = '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'
+    
 
     # Transform the df into text for the prompt
     # Load your DataFrame (replace with your actual DataFrame)
@@ -40,7 +41,7 @@ def gptgeneration(event_df,ranking_df,info, schedule, date):
     
     # Call the ChatGPT API
     response = openai.Completion.create(
-        engine='gpt-4-engine-name',
+        engine='text-davinci-003',
         prompt=prompt,
         max_tokens=1000,
         temperature=0.8,
