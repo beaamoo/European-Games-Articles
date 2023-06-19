@@ -42,14 +42,15 @@ selected = option_menu(
     default_index= 0,
     orientation='horizontal',)
 
+# Initialize session states
+if "date_selection" not in st.session_state:
+    st.session_state["date_selection"] = []
+    
+if "data_loaded" not in st.session_state:
+    st.session_state["data_loaded"] = False
+
 if selected == 'Summary per country':
         st.write('')
-        # Initialize session states
-    if "date_selection" not in st.session_state:
-        st.session_state["date_selection"] = []
-    
-    if "data_loaded" not in st.session_state:
-        st.session_state["data_loaded"] = False
     
     # Button event to load data
     if st.button('Get the data'):
