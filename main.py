@@ -34,6 +34,14 @@ st.components.v1.html(html_string, height=120)
 
 
 st.title(f"Generate you summary per country article")
+# Display the Option menu
+selected = option_menu(
+    menu_title= None,
+    options= ['Summary per country', 'LOLgorithm', 'Reserve Article', 'About the project', 'Creators'],
+    icons=['graph-up', 'clipboard-data'],
+    menu_icon= "cast",
+    default_index= 0,
+    orientation='horizontal',)
 
 # Initialize session states
 if "date_selection" not in st.session_state:
