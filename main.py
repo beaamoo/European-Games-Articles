@@ -3,7 +3,7 @@ import streamlit as st
 from df import get_the_data
 from generation import gptgeneration
 from doc import add_to_doc
-
+from streamlit_option_menu import option_menu
 from PIL import Image
 import streamlit.components.v1 as components
 
@@ -37,13 +37,15 @@ st.title(f"Generate you summary per country article")
 # Display the Option menu
 selected = option_menu(
     menu_title= None,
-    options= ['Summary per country', 'LOLgorithm', 'Reserve Article', 'About the project', 'Creators'],
+    options= ['Summary per country', 'LOLgorithm', 'Reserve Articles', 'About the project', 'Creators'],
     icons=['graph-up', 'clipboard-data'],
     menu_icon= "cast",
     default_index= 0,
     orientation='horizontal',)
 
-# Initialize session states
+if selected == 'Summary per country':
+    st.write('')
+    # Initialize session states
 if "date_selection" not in st.session_state:
     st.session_state["date_selection"] = []
 
@@ -110,3 +112,12 @@ if st.session_state["data_loaded"]:
         text = gptgeneration(event_df=st.session_state["event_df"], ranking_df=st.session_state["ranking_df"], info=add_info, schedule = schedule, date = st.session_state['date_selection'])
         document_url = add_to_doc(text)
         st.markdown(f"Here is the link: {document_url}")
+    
+elif selected == 'LOLgorithm':
+    continue
+elif selected == 'Reserve Articles':
+    continue
+elif selected == 'About the project':
+    continue
+elif selected == 'Creators':
+    continue
