@@ -114,10 +114,10 @@ if st.session_state["data_loaded"]:
         st.markdown(f"Here is the link: {document_url}")
     
 elif selected == 'LOLgorithm':
-    continue
+    pass
 elif selected == 'Reserve Articles':
-    continue
+    pass
 elif selected == 'About the project':
-    continue
+    pass
 elif selected == 'Creators':
-    continue
+    pass
