@@ -58,3 +58,29 @@ def gptgeneration(event_df,ranking_df,info, schedule, date):
 
 
     return generated_text
+
+
+def lolgorithm(input):
+# Set up your OpenAI API credentials
+    openai.api_key = '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'
+
+    # Prompt
+    prompt = f'''Generate an article that will not have too many expressive words. do not say: incredible, amazing, thrilling,outstanding, remarkable skill, prowess. I do not want such expressiveness. You must be journalistic professional. This is the most important point. The output should be less than 100 words. {input}. '''
+
+    # Call the ChatGPT API
+    response = openai.Completion.create(
+        engine='text-davinci-003',
+        prompt=prompt,
+        max_tokens=1000,
+        temperature=0.8,
+        top_p=0.9,
+        frequency_penalty=0.0,
+        presence_penalty=0.0
+    )
+
+    # Retrieve the generated response
+    generated_text = response.choices[0].text.strip()
+
+    return generated_text
+
+
